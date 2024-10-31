@@ -1,11 +1,12 @@
-import { useState } from 'react'
+
 import './App.css'
+import DaisyNav from './components/DaisyNav'
 
 function App() {
-  const [count, setCount] = useState()
 
   return (
     <>
+    <DaisyNav></DaisyNav>
       <h1 className='text-7xl bg-green-300'>Vite  React</h1>
     </>
   )
